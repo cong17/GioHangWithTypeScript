@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(232, 232, 232) !important;
+  font-family: "Mulish", sans-serif !important;
+}
+
+input.soluong {
+  width: 100%;
+}
+
+.giahientai {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  min-width: 100px;
+}
+
+.gia {
+  margin-top: 30%;
+}
+
+.to {
+  font-size: 25px;
+  font-weight: 400;
+  color: red;
+}
+
+.nho {
+  font-size: 15px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none !important;
+}
+/* .menutren {
+  min-height: 115px;
+  background: url(../image/menu.png) no-repeat center;
+  background-size: cover;
+} */
+.col-sm-3 > img {
+  width: 100px;
+}
+
+.tanggiamsoluong {
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.tanggiamsoluong span:hover {
+  background-color: rgb(200, 200, 200);
+  transition: 0.5ms;
+}
+
+._1sanpham {
+  padding: 10px 10px;
+}
+._1sanpham > div.col-sm-4 > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100px;
+}
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
+}
+.muangay {
+  cursor: pointer;
+}
+.tanggiamsoluong {
+  margin-top: 10px;
+  width: 100px;
+}
+.splienquan {
+  width: auto;
+}
+.splienquan > .card-body > p.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
