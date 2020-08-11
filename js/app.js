@@ -36,6 +36,7 @@ function OKKKKKK() {
 function dislayToCard() {
     document.getElementById("tinhgiasp").innerHTML = giohang.hienthigiatronggiohang();
     document.getElementById("tongsp").innerText = `${giohang.tinhSoLuong()} sản phẩm `;
+    window.scrollTo(100, 0);
 }
 document.querySelector("#splienquan > .row").innerHTML = spHTML;
 document.querySelectorAll(".muangay").forEach(ele => {
